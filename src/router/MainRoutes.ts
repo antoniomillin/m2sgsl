@@ -16,6 +16,11 @@ const MainRoutes = {
             component: () => import('@/views/corsi/corsi.vue'),
         },
         {
+            name: 'Corsi2',
+            path: '/corsi2',
+            component: () => import('@/views/corsi/corsi2.vue'),
+        },
+        {
             name: 'Analytical',
             path: '/dashboards/analytical',
             component: () => import('@/views/dashboards/analytical/Analytical.vue'),

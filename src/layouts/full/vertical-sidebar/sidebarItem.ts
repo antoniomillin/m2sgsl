@@ -81,26 +81,16 @@ const sidebarItem: menu[] = [
     to: "/dashboards/analytical",
   },
   {
+    title: 'ADMIN',
+    icon: ChartDonut3Icon,
+    to: '/',
+  
+  },
+  {
     title: 'ANAGRAFICA',
     icon: ChartDonut3Icon,
     to: '/',
-    children: [
-      {
-        title: 'Aziende',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      },
-      {
-        title: 'Ruoli',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      },
-      {
-        title: 'Utenti',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      }
-    ]
+  
   },
   {
     title: 'FORMAZIONE',
@@ -108,108 +98,48 @@ const sidebarItem: menu[] = [
     to: '/',
     children: [
       {
-        
-        title: 'Scadenze',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
+        title: 'CRUD Table',
+        icon: JumpRopeIcon,
+        to: '/corsi2'
       },
       {
 
-        title: 'Corsi',
+        title: 'Table example ',
         icon: CircleDotIcon,
         to: '/corsi'
       },
-      {
-        title: 'Storico',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      }
+
     ]
   },
   {
     title: 'ANTINCENDIO',
     icon: ChartDonut3Icon,
     to: '/',
-    children: [
-      {
-        title: 'Corsi',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      },
-      {
-        title: 'Storico',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      }
-    ]
+   
   },
   {
     title: 'PROTEZIONE',
     icon: ChartDonut3Icon,
     to: '/',
-    children: [
-      {
-        title: 'Corsi',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      },
-      {
-        title: 'Storico',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      }
-    ]
+ 
   },
   {
     title: 'MANUTENZIONE',
     icon: ChartDonut3Icon,
     to: '/',
-    children: [
-      {
-        title: 'Corsi',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      },
-      {
-        title: 'Storico',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      }
-    ]
+ 
   },
   {
     title: 'IDONEITA',
     icon: ChartDonut3Icon,
     to: '/',
-    children: [
-      {
-        title: 'Corsi',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      },
-      {
-        title: 'Storico',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      }
-    ]
+   
   },
   {
     title: 'APPALTI',
     icon: ChartDonut3Icon,
     to: '/',
-    children: [
-      {
-        title: 'Corsi',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      },
-      {
-        title: 'Storico',
-        icon: CircleDotIcon,
-        to: '/apps/blog/posts'
-      }
-    ]
+
   },
 /*
   { header: 'Home' },
